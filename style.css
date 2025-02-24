@@ -10,6 +10,10 @@ body{
     padding: 50px 5%;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
+    font-size: 0.5rem;
 }
 .container{
     position: relative;
@@ -17,6 +21,9 @@ body{
     background: rgba(255, 255, 255,0.1);
     border-radius: 30px;
     backdrop-filter: blur(20px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 header{
@@ -315,4 +322,35 @@ form .checkbox-container {
 legend{
     text-align: center;
     width: 280px;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 5vw;
+    }
+    .home-detail h2 {
+        font-size: 24px;
+    }
+    .competences {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 600px) {
+    .competences {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 600px) {
+    .home, .contact-section, .serv {
+        padding: 5vw;
+    }
+    .blok, .serv {
+        gap: 20px;
+        font-size: 18px;
+    }
+}
+p{
+    font-size: 1.2rem;
+}
+.tete{
+    font-size: 1px;
 }
