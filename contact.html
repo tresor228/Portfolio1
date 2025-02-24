@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href= "style.css"> 
+    <title>Contact</title>
+</head>
+<body>
+    <div class ="container">
+        <header>
+            <h1>Portfolio</h1>
+            <nav class ="navbar-nav">
+                <a href = "index.html">Accueil</a>
+                <a href = "competence.html" >Compétences</a>
+                <a href = "projet.html">Projet</a>
+                <a href = "service.html">Service</a>
+                <a href = "contact.html" class = "active">Contact</a>
+            </nav>
+        </header>
+        <section class="contact-section">
+            <div class="info">
+                <h3>Informations Personnelles</h3>
+                <p><strong>Email :</strong> bernardalade92@gmail.com</p>
+                <p><strong>Contact :</strong> +228 97050981</p>
+                <p><strong>Adresse :</strong> Lomé-Togo</p>
+            </div>
+            <div class ="info2">
+                <form method="post" action="#">
+                    <fieldset>
+                        <legend><strong>Formulaire de Contact</strong></legend>
+    
+                        <label for="nom">Nom :</label>
+                        <input type="text" name="nom" id="nom" placeholder="Votre nom" required><br>
+    
+                        <label for="email">Email :</label>
+                        <input type="email" name="email" id="email" placeholder="Votre email" required><br>
+    
+                        <label for="objet">Objet :</label>
+                        <input type="text" name="objet" id="objet" placeholder="Objet du message" required><br>
+    
+                        <label for="message">Message :</label>
+                        <textarea name="message" id="message" rows="4" placeholder="Votre message" required></textarea><br>
+    
+                        <div class="checkbox-container">
+                            <input type="checkbox" name="conf" id="conf">
+                            <label for="conf">Accepter la politique de confidentialité (optionnel)</label>
+                        </div>
+    
+                        <button type="submit">Envoyer</button>
+                    </fieldset>
+                </form>
+            </div>     
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>©2025 ByteMaster - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
+

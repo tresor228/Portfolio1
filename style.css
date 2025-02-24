@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(image/home.jpg);
+    padding: 50px 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: relative;
+    height: 100%;
+    background: rgba(255, 255, 255,0.1);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar-nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 35px;
+    font-weight: 500;
+    border-bottom: 2px solid #ffffff00;
+    transition: all;
+    transition-duration: 300ms;
+}
+.navbar-nav a:hover, .navbar-nav .active{
+    border-bottom: 2px solid #fff;
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    padding: 50px 5% 0;
+    color:#fff;
+}
+.home-detail h1{
+    font-size: 55px;
+    line-height: 1;
+}
+.home-detail h1 span{
+    color: #4badf4;
+}
+.home-detail h2{
+    font-size: 32px;
+}
+.home-detail p{
+    margin: 10px 0 20px;
+}
+.home-detail .download-social {
+    display: flex;
+    align-items: center;
+}
+.btn{
+    display : inline-block;
+    padding: 10px 30px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 45px;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn:hover{
+    background: transparent;
+    text-decoration: underline;
+    color: #fff;
+}
+.home-detail .social-icons {
+    margin-left: 20px;
+}
+.home-detail .social-icons a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 8px;
+}
+.home-detail .social-icons a:hover{
+    text-decoration: underline;
+    background: #fff;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+}
+.home-img .img-box{
+    position : relative;
+    width: 28vw;
+    height: 28vw;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fff;
+    overflow: hidden;
+}
+.home-img .img-box img {
+    position : absolute;
+    top: 10px;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    transform: translateY(-10px);
+}
+
+.pied{
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: #fff;
+    
+}
+.social-icons a{
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-icons a:hover{
+    transform : scale(1.2);
+    color: #fff
+}
+.prin{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    height: 75%;
+    background: rgba(255, 255, 255,0.1);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+}
+.service{
+    flex: 1;
+    padding: 10px;
+    border: 1px
+}
+h1 , h2{
+    color:#fff;
+}
+.competences {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.skill-cont{
+    size: 200px;
+    column-count: 3;
+    column-gap: 300px;
+    text-align: justify;
+}
+.skill{
+    display: flex;
+    gap: 8px;
+    font-size: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    zoom: 1.5;
+}
+.skill img{
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.skill span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.h2{
+    position: fixed;
+    bottom: 420px;
+    right:530px;
+    font-size: 30px;
+    padding: 20px;
+}
+.blok{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.serv{
+    display: flex;
+    gap: 50px;
+    font-size: 30px;
+    padding: 100px;
+    border-radius: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+.contact-section{
+    display: flex;
+    gap: 250px;
+    align-items: center;
+    padding: 100px;
+    color: #fff;
+    margin-bottom: 100px;
+
+
+    position: relative;
+    top: -30px;
+}
+.info{
+    font-size: 22px
+}
+form {
+    width: 300px;
+    padding: 10px;
+    border-radius: 100px;
+    font-family: Arial, sans-serif;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+    width: 150%;
+    text-align: left;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+form textarea {
+    resize: none;
+    height: 100px;
+}
+form input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+form button:hover {
+    background: #0056b3;
+}
+form .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
+}
+.info{
+    margin-bottom: 200px;
+}
+legend{
+    text-align: center;
+    width: 280px;
+}
