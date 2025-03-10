@@ -280,6 +280,7 @@ nav {
     box-shadow: var(--box-shadow);
     text-align: center;
     transition: var(--transition);
+    justify-content: center;
 }
 
 .service-box:hover {
@@ -291,7 +292,13 @@ nav {
     margin-bottom: 20px;
     color: var(--primary-color);
 }
-
+.competence {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    justify-content: center;
+    display: flex;
+}
 .service-box h3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
