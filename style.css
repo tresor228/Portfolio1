@@ -132,8 +132,12 @@ nav {
     display: flex;
     align-items: center;
     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('https://via.placeholder.com/1600x900') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Garde l’image et le texte côte à côte */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+    padding: 20px;
 }
-
 .hero-content {
     display: flex;
     align-items: center;
@@ -533,7 +537,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     .hamburger {
-        display: block;
+        display: none;
         font-size: 1.5rem;
     }
 @media (max-width: 800px) { /* Pour les écrans mobiles */
