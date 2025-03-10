@@ -6,6 +6,10 @@
     <title>Mon Portfolio</title>
     <link rel = "stylesheet" href = "style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+
 </head>
 <body>
     <!-- Header & Navigation -->
@@ -38,9 +42,9 @@
                     <p>Spécialisé dans le développement web et le backend responsive, je transforme vos idées en réalité numérique.</p>
                     <a href="#contact" class="btn">Contactez-moi</a>
                     <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/kodjo-b-trésor-alade-095a12337/"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://github.com/tresor228"><i class="fab fa-github"></i></a>
-                        <a href="https://x.com/kodjo_alad65494?t=sBhzSgQxlZ5rgeUnbFVC2w&s=09"><i class="fab fa-X"></i></a>
+                        <a href="https://www.linkedin.com/in/kodjo-b-trésor-alade-095a12337/"   target="_blank" ><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/tresor228"><i class="fab fa-github" target="_blank" ></i></a>
+                        <a href="https://x.com/kodjo_alad65494?t=sBhzSgQxlZ5rgeUnbFVC2w&s=09" target="_blank"> <i class="fa-brands fa-x-twitter"></i></a>
                         <a href="https://discord.gg/AKVYybjbzt"><i class="fab fa-discord"></i></a>
                     </div>
                 </div>
@@ -72,34 +76,16 @@
                     <div class="skills">
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span>HTML & CSS</span>
-                                <span>80%</span>
+                                <span> Developpement Web</span>
+                                <span>65%</span>
                             </div>
                             <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
+                                <div class="skill-progress" style="width: 65%"></div>
                             </div>
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span>JavaScript</span>
-                                <span>70%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Golang</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>WordPress</span>
+                                <span>Developpement Backend</span>
                                 <span>80%</span>
                             </div>
                             <div class="skill-bar">
@@ -126,25 +112,63 @@
                 </div>
                 <div class="service-box">
                     <div class="service-icon">
-                        <i class="fas fa-paint-brush"></i>
+                        <i class="fas fa-server"></i>
                     </div>
                     <h3>Developpement Backend</h3>
                     <p>Conception d'API et systèmes performants avec Go .</p>
                 </div>
                 <div class="service-box">
                     <div class="service-icon">
-                        <i class="fas fa-mobile-alt"></i>
+                        <i class="fas fa-shopping-bag"></i>
                     </div>
                     <h3>E-Commerce</h3>
                     <p>Configuration et optimisation de boutiques Shopify, WooCommerce</p>
                 </div>
-                <!--<div class="service-box">
+            </div>
+        </div>
+    </section>
+    <!-- Competence Section-->
+    <section id="competence">
+        <div class = "container">
+            <h2 class = "section-title"> Mes <span>Competences</span></h2>
+            <div class="services-container">
+                <div class="service-box">
                     <div class="service-icon">
-                        <i class="fas fa-chart-line"></i>
+                        <i class="devicon-html5-plain"></i>
                     </div>
-                    <h3>SEO</h3>
-                    <p>Optimisation de votre site pour les moteurs de recherche afin d'améliorer sa visibilité en ligne.</p>
-                </div> -->
+                    <h3>HTML5</h3>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="devicon-css3-plain"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="devicon-go-plain"></i>
+                    </div>
+                    <h3>Golang</h3>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="devicon-git-plain"></i> 
+                    </div>
+                    <h3>Git</h3>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="devicon-github-original"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="devicon-javascript-plain"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                </div>
+               
             </div>
         </div>
     </section>
@@ -186,7 +210,7 @@
                     <p>Lomé, Togo</p>
                 </div>
             </div>
-            <div class="contact-form">
+           <!-- <div class="contact-form">
                 <form>
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Votre Nom" required>
@@ -204,7 +228,7 @@
                 </form>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Pied -->
     <footer>
@@ -221,5 +245,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
     </body>
 </html>
